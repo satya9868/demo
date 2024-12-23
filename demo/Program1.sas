@@ -15,3 +15,7 @@ run;
 proc freq data=survey;
     tables Smoking / all;   
 run;
+
+proc freq data=survey;
+    tables Gender / all;   
+run;
